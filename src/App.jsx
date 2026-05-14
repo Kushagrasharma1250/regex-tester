@@ -129,7 +129,7 @@ function HighlightedText({ text, matches, activeMatch, onMatchClick }) {
 export default function App() {
   const [pattern, setPattern] = useState('\\b[A-Za-z0-9._%+\\-]+@[A-Za-z0-9.\\-]+\\.[A-Z|a-z]{2,}\\b')
   const [flags, setFlags] = useState('g')
-  const [testText, setTestText] = useState('Hello! Reach me at alice@example.com or bob.smith@company.org\nInvalid ones: @missing.com, noatsign.com, bad@ \nAlso try: support@help.io and info@domain.co.uk')
+  const [testText, setTestText] = useState('Hello! Reach me at ssk1250y@gmail.com')
   const [replaceWith, setReplaceWith] = useState('[REDACTED]')
   const [rightTab, setRightTab] = useState('explain')
   const [activeMatch, setActiveMatch] = useState(null)
